@@ -59,13 +59,13 @@ At that point a Notebook file (`.ipynb`) will be in the folder you cloned into. 
 Since the program is designed to just output an ID based on input, it can be run directly from JupyterHub. Once the repository is cloned, open the notebook file and press the run button on the top of the JupyterHub interface. The program will expect a name and an age as input from `stdin`.
 
 ## How to contribute...
-*All contributions must follow the guidelines laid out in [the code of conduct](CONDUCT.md).*
+*All contributions must follow the guidelines laid out in [the code of conduct](CODE_OF_CONDUCT.md).*
 
 To contribute to the software, create a fork of the repository in GitHub. Make any changes you want within your repository, then open a pull request in the base repository (this one). We will review your changes and open a discussion on any further changes that need to be made before your edits are flush with ours and ready to merge. Once we determine the changes follow our Code of Conduct and are appropriate additions to the project, we will merge your pull request.
 
 ## Licensing Information
 
-This software uses the [GNU GPL v3](LICENSE), which is a permissive/copyleft license. We chose this license because it allows the community to use the software in a very free manner. The GPL permits you to:
+This software uses the [GNU GPL v3](LICENSE.md), which is a permissive/copyleft license. We chose this license because it allows the community to use the software in a very free manner. The GPL permits you to:
 * Modify this program
 * Redistribute this program
 * Use this program commercially, privately, and in patents.
