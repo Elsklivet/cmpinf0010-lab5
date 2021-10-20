@@ -71,3 +71,19 @@ This software uses the [GNU GPL v3](LICENSE.md), which is a permissive/copyleft 
 * Use this program commercially, privately, and in patents.
 
 Additionally, we, the authors of the software, are free of liability if you use the software and we do not provide any warranty along with it.
+
+## Code-Of-Conduct Information
+
+The code we used was a pre-existing Citizen Code of Conduct, which is inclusive allowing a large number of contributors with a variety of backgrounds. The code of conducts outlines the expectations of CMPINF0010 along with the consequences. The conduct list is as followed:
+* Purpose
+* Open [Source/Culture/Tech] Citizenship
+* Expected Behavior
+* Unacceptable Behavior
+* Weapons Policy
+* Consequences of Unacceptable Behavior
+* Reporting Guidelines
+* Addressing Grievences 
+* Scope
+* Contact Info
+* License and attribution
+Generally this Code of Conduct covers every aspect of guidelines and sets up for the basics.
