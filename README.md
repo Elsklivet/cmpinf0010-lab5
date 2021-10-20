@@ -86,4 +86,5 @@ The code we used was a pre-existing Citizen Code of Conduct, which is inclusive 
 * Scope
 * Contact Info
 * License and attribution
+
 Generally this Code of Conduct covers every aspect of guidelines and sets up for the basics.
