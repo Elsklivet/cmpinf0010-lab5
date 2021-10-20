@@ -3,7 +3,7 @@
 
 This program takes two inputs, a user's `name` and `age`. It uses these two inputs to generate a fairly unique 7-digit PeopleSoft ID for the user.
 
-## How it works
+## What the software does...
 
 First we get the inputs and make sure that the integer age is the correct type, otherwise we give it a fail value of 20 (0x14 in hex).
 ```python
@@ -42,4 +42,32 @@ Finally, some ages will cause the result to be only six digits, so append a zero
 ID = ID * 10 if ID < 1000000 else ID
 ```
 
-And that's it! After that, it will print out an ID. This ID should be the same if the same name and age is entered, but different otherwise. Thus, a student can enter their name and age to get an ID unique to them. (Note, the IDs will collide if you only enter first names and two students share a first name and age, so use full names.)
+And that's it! After that, it will print out an ID. This ID should be the same if the same name and age is entered, but different otherwise. Thus, a student can enter their name and age to get an ID unique to them. (Note, the IDs will collide if you only enter first names and two students share a first name and age, so use students' *full names*.)
+
+## How to use the software...
+
+### Installation
+To install, first open the project you'd like to use the software in using [JupyterHub](https://jupyter.org/hub). Open a terminal in the project by using the `+` icon and choosing `Terminal`. Move to the directory you want to use with `cd` and then type:
+
+```
+git clone https://github.com/Elsklivet/cmpinf0010-lab5 <directory to clone into>
+```
+
+At that point a Notebook file (`.ipynb`) will be in the folder you cloned into. The code can be copied into any other notebook if you'd like to include it in already-existing code, or you can use the given notebook as a starter. Because it is a notebook, **there is no module information, `__init__`, or ability to do a `pip install`!** You must either use the notebook or copy into a `.py` file of your own creation.
+
+### Usage
+Since the program is designed to just output an ID based on input, it can be run directly from JupyterHub. Once the repository is cloned, open the notebook file and press the run button on the top of the JupyterHub interface. The program will expect a name and an age as input from `stdin`.
+
+## How to contribute...
+*All contributions must follow the guidelines laid out in [the code of conduct](CONDUCT.md).*
+
+To contribute to the software, create a fork of the repository in GitHub. Make any changes you want within your repository, then open a pull request in the base repository (this one). We will review your changes and open a discussion on any further changes that need to be made before your edits are flush with ours and ready to merge. Once we determine the changes follow our Code of Conduct and are appropriate additions to the project, we will merge your pull request.
+
+## Licensing Information
+
+This software uses the [GNU GPL v3](LICENSE), which is a permissive/copyleft license. We chose this license because it allows the community to use the software in a very free manner. The GPL permits you to:
+* Modify this program
+* Redistribute this program
+* Use this program commercially, privately, and in patents.
+
+Additionally, we, the authors of the software, are free of liability if you use the software and we do not provide any warranty along with it.
