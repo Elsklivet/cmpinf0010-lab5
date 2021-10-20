@@ -65,7 +65,7 @@ To contribute to the software, create a fork of the repository in GitHub. Make a
 
 ## Licensing Information
 
-This software uses the [GNU GPL v3](LICENSE.md), which is a permissive/copyleft license. We chose this license because it allows the community to use the software in a very free manner. The GPL permits you to:
+This software uses the [GNU GPL v3](LICENSE.md), which is a permissive/copyleft license. We chose this license because it allows the community to use the software in a very free manner. The GPL permits you to, under certain circumstances:
 * Modify this program
 * Redistribute this program
 * Use this program commercially, privately, and in patents.
